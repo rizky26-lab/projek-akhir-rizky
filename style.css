@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 1px #ddd;
+  background-color: #ffff;
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+
+#nav-tittle{
+  margin-left: 20px;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+
+.nav img{
+  width: 55px;
+}
+
+.nav ul li{
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover{
+  color: #1F3984;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.content-utama {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.content-isi {
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.content-isi h4{
+  padding-top: 15px;
+  font-weight: bold;
+
+}
+
+.content-isi h1{
+  font-size: 45px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.button{
+  margin-top: 25px;
+}
+
+#btn{
+  background-color:  #1F3984;
+  display: inline-block;
+  padding: 12px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffff;
+  box-shadow: 1px 1px rgba(0, 0, 0, 1);
+  border-color: black;
+}
+
+
+#btn:active {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
+.content-utama img{
+  width: 20%;
+  border-radius: 10px;
+  height: 10%;
+}
+.spann{
+  color: #1F3984 ;
+   font-weight: bold;
+}
+.kata-2{
+  font-size: 30px;
+  color: #919191;
+}
+
+  
+  .card2 {
+    max-width: 730px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 70px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .logo1 {
+    display: block;
+    max-width: 80%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .name-1 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .contact-1 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .foto2{
+    width: 350px;
+    height: 600px;
+    float: right;
+    border-radius: 10px;
+    margin-top: -430px;
+  }
+
+  .card1 {
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 70px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+  }
+  .card2 h1{
+    text-align: left;
+    color: #1F3984;
+    font-weight: bold;
+  }
+  .text1 h1{
+    text-align: 20px;
+  }
+  .text1 p{
+    text-align: 10px;
+
+  }
+
+  .card-2 {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    height: 300px;
+  }
+  
+  .section-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .section-2 span {
+    color: #999999;
+    font-size: 12px;
+  }
+  
+  .section-2 .value-2 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .progress-bar-2 {
+    background-color: #1F3984;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar-2 .progress-2{
+    height: 100%;
+    background-color: #66CCFF;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .text-jalan{
+    border: 1px solid;
+    font-size: 30px;
+    background-color: #1F3984;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+
+    
+  }
+  
+  .container-gambar{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+.gambar{
+   width: 260px;
+   display: flex;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+}
+
+.gambar img{
+    width: 240px;
+    border-radius: 10px;
+}
+
+  .clearfix-3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer-main-3 {
+    background-color: #001E42;
+    padding: 24px 60px;
+    color: white;
+  }
+  
+  .footer-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+  }
+  .baner1 img{
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+    height: 600px;
+  }
+  
+ 
